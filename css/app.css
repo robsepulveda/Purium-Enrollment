@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+* {
+    box-sizing: border-box;
+}
+
+/*  Row Margins */
+.topMarg {
+  margin-top: 100px;
+}
+
+.bodyMarg {
+  margin-top: 50px;
+}
+
+.infoMarg {
+  margin-bottom: 60px;
+}
+
+/* Create three columns of equal width */
+.planCol {
+    float: left;
+    width: 33.3%;
+    padding-bottom: 15px;
+}
+
+/* Style the list */
+.price {
+    list-style-type: none;
+    border: 1px solid #eee;
+    margin: 0;
+    padding: 0;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+}
+
+/* Add shadows on hover */
+.price:hover {
+    box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2)
+}
+
+/* Pricing headers */
+.price .header3 {
+    background-color: #80bd01;
+    color: white;
+    font-size: 1.6rem;
+}
+
+.price .header1 {
+    background-color: #4F7282;
+    color: white;
+    font-size: 1.6rem;
+}
+
+.price .header2 {
+    background-color: #960058;
+    color: white;
+    font-size: 1.6rem;
+}
+
+/* List items */
+.price li {
+    border-bottom: 1px solid #eee;
+    padding: 20px;
+    text-align: center;
+}
+
+.price li:last-child {
+  border-bottom: 0;
+}
+
+/* Grey list item */
+.price .grey {
+    background-color: #f8f8f8;
+    font-size: 2rem;
+}
+
+/* The "Sign Up" button */
+.btn {
+    border-radius: 3px;
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+.green {
+  background-color: #80bd01;
+}
+
+.green:hover {
+  background-color: #6FA301;
+}
+
+.purple {
+  background-color: #960058;
+}
+
+.purple:hover {
+  background-color: #7D0049;
+}
+
+.grayblue {
+  background-color: #4F7282;
+}
+
+.grayblue:hover {
+  background-color: #415E6B;
+}
+
+.row {
+  max-width: 960px;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Fontawesome Style */
+.fa-check {
+  color: #80bd01;
+}
+
+.fa-times {
+  color: #BD0000;
+}
+
+/* Footer Style */
+footer {
+  background-color: #07152B;
+  height: 300px;
+}
+/* Change the width of the three columns to 100% 
+(to stack horizontally on small screens) */
+@media only screen and (max-width: 600px) {
+    .columns {
+        width: 100%;
+    }
+}
+
+/* .top-bar {
+  margin-bottom: 100px;
+}
+
+img {display: block; margin: auto; max-width: 100%; height: auto; margin-bottom: 20px;}
+
+
+.pricing-table {
+  background-color: #fefefe;
+  border: solid 1px #cacaca;
+  width: 100%;
+  text-align: center;
+  list-style-type: none;
+  margin-bottom: 100px;
+}
+
+.pricing-table li {
+  border-bottom: dotted 1px #cacaca;
+  padding: 0.875rem 1.125rem;
+}
+
+.pricing-table li.title {
+  background-color: #80bd01;
+  color: #fff;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-family: 'Lato', san-serif;
+}
+
+.pricing-table li:last-child {
+  border-bottom: 0;
+}
+
+.pricing-table .title {
+  background-color: #0a0a0a;
+  color: #fefefe;
+  border-bottom: 0;
+}
+
+.pricing-table .price {
+  background-color: #e6e6e6;
+  font-size: 2rem;
+  border-bottom: 0;
+}
+
+.pricing-table .description {
+  color: #8a8a8a;
+  font-size: 80%;
+}
+
+.pricing-table :last-child {
+  margin-bottom: 0;
+} */
+
